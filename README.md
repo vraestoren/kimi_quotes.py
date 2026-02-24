@@ -3,8 +3,9 @@ Web-API for [kimiquotes.herokuapp.com](https://kimiquotes.herokuapp.com) website
 
 ## Example
 ```python
-import kimi_quotes
-kimi_quotes = kimi_quotes.KimiQuotes()
+from kimi_quotes import KimiQuotes
+
+kimi_quotes = KimiQuotes()
 random_quote = kimi_quotes.get_random_quote()
 print(random_quote)
 ```
